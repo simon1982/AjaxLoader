@@ -1,3 +1,9 @@
+ /**
+ * @name AjaxLoader.js
+ * @version 0.1
+ * @author Szymon Domanski <szymon.domanski.2011@gmail.com>
+ */
+ 
  function _prototypeGetExternalPageContnetJquery(url,cmd,data == null){
    console.log('GetExternalPageContnetJquery > url: ' + url);
    var counter = 10;
