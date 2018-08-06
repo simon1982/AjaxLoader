@@ -4,7 +4,7 @@
  * @author Szymon Domanski <szymon.domanski.2011@gmail.com>
  */
  
- function _prototypeGetExternalPageContnetJquery(url,cmd,data == null){
+ function _prototypeGetExternalPageContnetJquery(url,cmd,data = false){
    console.log('GetExternalPageContnetJquery > url: ' + url);
    var counter = 10;
    var step = 0;
@@ -44,7 +44,7 @@
       case 'sendPostSoap':
         // preper  
          break;
-      case 'sendGet'
+      case 'sendGet' :
          $.ajax({
             url: url,
             contentType: "text/xml",
