@@ -1,17 +1,11 @@
  /**
  * @name AjaxLoader.js
- * @version 
+ * @version v1.0
  * @author Szymon Domanski <szymon.domanski.2011@gmail.com>
  */
-<<<<<<< HEAD
  var step = 1;
 
  function GetExternalPageContnetJquery(url,cmd,data){
-=======
- 
- function _prototypeGetExternalPageContnetJquery(url,cmd,data = false){
-   console.log('GetExternalPageContnetJquery > url: ' + url);
->>>>>>> a4d70a38828279eca5c638bfa2bb0529b97d2624
    var counter = 10;
    var result;
    switch(cmd) {
@@ -45,11 +39,7 @@
       case 'sendPostSoap':
         // preper  
          break;
-<<<<<<< HEAD
       case 'sendGet':
-=======
-      case 'sendGet' :
->>>>>>> a4d70a38828279eca5c638bfa2bb0529b97d2624
          $.ajax({
             url: url,
             contentType: "text/xml",
